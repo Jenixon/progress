@@ -11,7 +11,7 @@ function App() {
   
       <div className="justify-center flex items-center h-screen w-[100vw] gap-2 flex-col">
         {show ? <Progress/> : ""}
-        <button onClick={()=>setShow(!show)}>Toggle button</button>
+        <button onClick={()=>setShow(!show)}>Togggle button</button>
 
        </div>
   
